@@ -5477,8 +5477,8 @@ REPORT-FN is Flymake's callback function."
   "Major mode for editing Python files.
 
 \\{python-mode-map}"
-  (set (make-local-variable 'tab-width) 8)
-  (set (make-local-variable 'indent-tabs-mode) nil)
+  ;;(set (make-local-variable 'tab-width) 8)
+  ;;(set (make-local-variable 'indent-tabs-mode) nil)
 
   (set (make-local-variable 'comment-start) "# ")
   (set (make-local-variable 'comment-start-skip) "#+\\s-*")
